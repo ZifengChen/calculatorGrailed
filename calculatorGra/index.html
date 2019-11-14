@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Grailed Calculator</title>
+</head>
+<body>
+    <h1 class="title">Grailed Calculator</h1>
+    <p>This helps you calculate what you get from selling on Grailed</p>
+    <!-- Enter Your Sale Price -->
+    <div class="main">
+        <input type="number" id="salePrice" min="1" placeholder="Enter Sale Price">
+        <input type="number" id="shippingPrice" min="1" placeholder="Enter Shipping Fee">
+        <button type="button" id="calculateBtn">Calculate Total</button>
+        <button type="button" id="refreshBtn" onClick="window.location.reload()">Refresh</button>
+    </div>
+    <p id="result"></p>
+    <script src="main.js"></script>
+</body>
+</html>
